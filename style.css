@@ -1,0 +1,65 @@
+. {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.sen {
+    
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    color: cornsilk;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+.icon {
+    width: 50%;
+    height: 50%;
+    opacity: 70%;
+    
+  }
+
+
+.nav-lnk {
+    align-items: center;
+    float: right;
+    display: flex;
+    list-style: none;
+}
+
+
+.nav-lnk li {
+    align-items: center;
+    padding: 20px 25px;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    cursor: pointer;
+    color: cornsilk;
+    
+}
+.body-content{
+    background-image: url(img/PSX_20200105_230015.jpg) ;
+   font-family: 'Pacifico', cursive;
+    min-height: 100vh;
+    background-size: 100% 120%;
+    width: 100%;
+    position: absolute;
+
+}
